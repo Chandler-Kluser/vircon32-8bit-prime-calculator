@@ -32,7 +32,7 @@ void main(void)
                     if (y_index>screen_height-bios_character_height*2) {
                         // fix screen cursor
                         y_index=5;
-                        x_index+=bios_character_width*3;
+                        x_index+=bios_character_width*4;
                     }
                     // convert int to string (int pointer)
                     itoa(i,text,10);
